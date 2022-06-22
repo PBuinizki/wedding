@@ -22,7 +22,7 @@ h2 {
     font-size: 38px;
     font-weight: normal;
     padding: 0 40px;
-    width: fit-content;
+    width: min-content;
 }
 
 .p-t-60 {
@@ -36,11 +36,25 @@ h2 {
 .img-el {
     position: relative;
     padding-bottom: 60px;
-    max-width: 367px;
+    max-width: 375px;
     overflow-x: hidden;
 } 
 
-.img-el svg {
+.h-el {
+    position: relative;
+    padding-bottom: 60px;
+    max-width: 375px;
+    /* overflow-x: hidden; */
+}
+
+.h-el h2 {
+    color: var(--vine);
+    z-index: 2;
+    position: relative;
+    top: 130px;
+}
+
+.img-el svg,  .h-el svg{
     position: absolute;
     top: 0;
     left: 0;
