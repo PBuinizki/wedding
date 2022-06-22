@@ -1,16 +1,25 @@
 *,*::before,*::after {padding: 0;margin: 0;border: 0;box-sizing: border-box;}
 
+/* * {
+    outline: 1px solid red;
+    }
+ */
 :root {
     --vine: #FCFCEE;
     --dark-blue: #202630;
     --black: #1E1E1E;
 }
 
+html, body {
+    max-width: 100%; 
+    overflow-x: hidden; 
+}
+
 body {
     font-family: 'Montserrat', sans-serif;
     background-color: var(--vine);
     color: var(--dark-blue);
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 
 .container {
@@ -36,22 +45,21 @@ h2 {
 .img-el {
     position: relative;
     padding-bottom: 60px;
-    max-width: 375px;
+    max-width: 360px;
     overflow-x: hidden;
 } 
 
 .h-el {
     position: relative;
     padding-bottom: 60px;
-    max-width: 375px;
-    /* overflow-x: hidden; */
+    max-width: 350px;
 }
 
 .h-el h2 {
     color: var(--vine);
     z-index: 2;
     position: relative;
-    top: 130px;
+    top: 120px;
 }
 
 .img-el svg,  .h-el svg{
