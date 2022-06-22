@@ -22,10 +22,15 @@ h2 {
     font-size: 38px;
     font-weight: normal;
     padding: 0 40px;
+    width: fit-content;
 }
 
 .p-t-60 {
     margin-top: 60px;
+}
+
+.p-t-180 {
+    margin-top: 180px;
 }
 
 .img-el {
