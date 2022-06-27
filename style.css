@@ -119,3 +119,30 @@ h3 {
     margin: 50px auto 0;
     border: 1px solid var(--dark-blue);
 }
+
+.row {
+    display: flex;
+    padding: 0 15px;
+    row-gap: 30px;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+h4 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+    padding-bottom: 14px;
+}
+
+ul li {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 209.4%;
+    color: var(--black);
+    list-style: none;
+}
