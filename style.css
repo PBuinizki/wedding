@@ -28,6 +28,25 @@ body {
 /*     outline: 1px solid var(--dark-blue); */
 }
 
+.scroll {
+    position: fixed;
+    top: 60%;
+    right: -55px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-decoration-line: underline;
+    color: var(--black);
+    transform: rotate(-90deg);
+    z-index: 10;
+}
+
+.scroll::before {
+    content: '🠐';
+    letter-spacing: 15px;
+}
+
 h2 {
     font-size: 38px;
     font-weight: normal;
