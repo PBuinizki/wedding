@@ -15,3 +15,8 @@ const swiper = new Swiper('.swiper', {
             disableOnInteraction: false,
           },
   });
+
+
+  AOS.init({
+    duration: 1500
+  });
